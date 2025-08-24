@@ -1,4 +1,4 @@
-import { Navbar } from "./components";
+import { HowltWorks, Navbar } from "./components";
 import { HeroBlock } from "./components/HeroBlock";
 
 export default function Home() {
@@ -6,6 +6,7 @@ export default function Home() {
     <div className="min-h-screen w-full bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
       <Navbar/>
       <HeroBlock/>
+      <HowltWorks/>
     </div>
   );
 }
