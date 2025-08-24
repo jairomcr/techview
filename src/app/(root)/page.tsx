@@ -1,4 +1,4 @@
-import { HowltWorks, Navbar } from "./components";
+import { HowltWorks, Navbar, Pricing } from "./components";
 import { HeroBlock } from "./components/HeroBlock";
 
 export default function Home() {
@@ -7,6 +7,7 @@ export default function Home() {
       <Navbar/>
       <HeroBlock/>
       <HowltWorks/>
+      <Pricing/>
     </div>
   );
 }
